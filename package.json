@@ -6,7 +6,7 @@
     "develop:backend": "yarn --cwd backend develop",
     "develop:frontend": "wait-on http://localhost:1337/admin && yarn --cwd frontend develop",
     "develop": "cross-env FORCE_COLOR=1 npm-run-all -l -p develop:*",
-    "start": "yarn --cwd backend build && yarn --cwd backend start"
+    "deploy:strapi": "git subtree push --prefix backend heroku main"
   },
   "devDependencies": {
     "cross-env": "7.0.3",
@@ -14,6 +14,7 @@
     "wait-on": "5.2.1"
   },
   "dependencies": {
+    "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0"
   }
 }

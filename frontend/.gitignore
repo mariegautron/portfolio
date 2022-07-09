@@ -115,3 +115,4 @@ build
 
 
 .next
+.env.local
