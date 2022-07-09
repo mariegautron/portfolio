@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_nav_item_children",
+  "info": {
+    "displayName": "NavItemChildren",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "sublabel": {
+      "type": "text"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

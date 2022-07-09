@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_nav_items",
+  "info": {
+    "displayName": "NavItem",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "sublabel": {
+      "type": "text"
+    },
+    "href": {
+      "type": "string"
+    },
+    "children": {
+      "displayName": "children",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.nav-item-children"
+    }
+  }
+}

@@ -31,6 +31,12 @@
       ],
       "type": "media",
       "multiple": false
+    },
+    "layout": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.layout",
+      "required": true
     }
   }
 }

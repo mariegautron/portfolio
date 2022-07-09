@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_shared_layouts",
+  "info": {
+    "displayName": "Layout",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "navItems": {
+      "displayName": "NavItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.nav-item"
+    },
+    "twitterLink": {
+      "type": "string"
+    },
+    "linkedinLink": {
+      "type": "string"
+    },
+    "rights": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
